@@ -299,13 +299,16 @@ body {
 	}
 	#copyright {
 		font-size: 12px;
-		margin-left: 30%;
-		margin-top: 50px;
+		margin-left: 32%;
+		margin-top: 27px;
 		width: 600px;
 	}
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+	#copyright {
+		margin-top: 40px;
+	}
 	ul {
 		margin-top: 20px;
 	}
