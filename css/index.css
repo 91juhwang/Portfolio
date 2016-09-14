@@ -295,8 +295,7 @@ body {
 	#contacts ul li{
 		list-style: none;
 		display: inline-block;
-		margin-right: 13%;
-		margin-left: 1%;
+		margin-left: 13%;
 	}
 	#copyright {
 		font-size: 12px;
@@ -353,7 +352,7 @@ body {
 		width: 600px;
 	}
 	#contacts ul {
-		margin-left: 25%;
+		margin-left: 26%;
 	}
 	#contacts ul li{
 		margin-right: 13%;
@@ -361,7 +360,7 @@ body {
 	}
 	#contacts ul li a{
 		font-size: 18px;
-		padding: 1px;
+		padding-left: 1px;
 	}
 	#contacts ul li a:hover{
 		font-size: 18px;
