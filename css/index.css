@@ -361,6 +361,7 @@ body {
 	}
 	#contacts ul li a{
 		font-size: 18px;
+		padding: 1px;
 	}
 	#contacts ul li a:hover{
 		font-size: 18px;
