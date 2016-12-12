@@ -50,6 +50,21 @@ body {
 	text-align: center;
 	font-size: 45px;
 }
+.experience_title{
+  width: 350px;
+  display: inline-block;
+  margin-left: 0%;
+}
+.experience_title > h3 {
+  margin-top: 0px;
+}
+.experience_description {
+  padding: 0px;
+  color: grey;
+}
+.experience_description > h4 {
+  margin-bottom: 5px;
+}
 #title_icon {
 	color: orange;
 	font-size: 50px;
@@ -78,9 +93,9 @@ body {
 	color: orange;
 }
 .about_titles {
-		margin-left: 11%;
-		color: orange;
-	}
+  margin-left: 11%;
+  color: orange;
+}
 .project_links {
 	width: 200px;
 	display: inline-block;
@@ -219,6 +234,10 @@ body {
 		width: 20px;
 		margin-right: 20px;
 		text-align: center;
+  }
+  .experience_array_section {
+		font-size: 16px;
+    margin-left: 10%;
 	}
 	.array_section {
 		font-size: 16px;
@@ -233,6 +252,14 @@ body {
 		margin-left: 10%;
 		font-size: 25px;
 	}
+  .experience_title{
+		width: 350px;
+		display: inline-block;
+		margin-left: 10%;
+	}
+  .experience_title > h3 {
+    margin-top: 0px;
+  }
 	.project_links {
 		width: 180px;
 		display: inline-block;
@@ -242,7 +269,14 @@ body {
 		font-size: 13px;
 		margin-left: 10%;
 		margin-top: 0px;
-	}
+  }
+  .experience_description {
+    padding: 0px;
+    color: grey;
+  }
+  .experience_description > h4 {
+    margin-bottom: 6px;
+  }
 	.detail_description {
 		font-size: 14px;
 		margin-left: 13%;
@@ -306,6 +340,25 @@ body {
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+  .experience_title {
+    width: 300px;
+		margin-left: 17%;
+    margin-top: 0px;
+	}
+  .experience_title > h3 {
+    margin-top: 0px;
+  }
+  .experience_array_section {
+		font-size: 17px;
+    margin-left: 17%;
+	}
+  .experience_description {
+    padding: 0px;
+    color: grey;
+  }
+  .experience_description > h4 {
+    margin-bottom: 6px;
+  }
 	#copyright {
 		margin-top: 40px;
 	}
