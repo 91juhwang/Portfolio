@@ -32,6 +32,11 @@ body {
 	color: orange;
 	font-size: 25px;
 }
+.experience_title > h3 {
+    margin-top: 0px;
+    font-size: 16px; 
+    margin-bottom: 8px;
+}
 /*nav bar brand section */
 .navbar-default .navbar-brand {
 	font-size: 18px;
@@ -55,15 +60,13 @@ body {
   display: inline-block;
   margin-left: 0%;
 }
-.experience_title > h3 {
-  margin-top: 0px;
-}
 .experience_description {
   padding: 0px;
   color: grey;
 }
 .experience_description > h4 {
   margin-bottom: 5px;
+  font-size: 15px;
 }
 #title_icon {
 	color: orange;
