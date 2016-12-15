@@ -60,13 +60,17 @@ body {
   display: inline-block;
   margin-left: 0%;
 }
+.experience_title > h3 {
+    margin-top: 0px;
+    font-size: 16px;
+  }
 .experience_description {
   padding: 0px;
   color: grey;
 }
 .experience_description > h4 {
   margin-bottom: 5px;
-  font-size: 15px;
+  font-size: 14px;
 }
 #title_icon {
 	color: orange;
@@ -88,12 +92,16 @@ body {
 	width: 33%;
 	visibility: hidden;
 }
+ .experience_array_section {
+		font-size: 12px;
+	}
 .array_section {
 	display: inline-block;
 	font-size: 12px;
 }
 .page_titles {
 	color: orange;
+	font-size: 26px;
 }
 .about_titles {
   margin-left: 11%;
@@ -239,7 +247,7 @@ body {
 		text-align: center;
   }
   .experience_array_section {
-		font-size: 16px;
+		font-size: 13px;
     margin-left: 10%;
 	}
 	.array_section {
@@ -253,7 +261,7 @@ body {
 	.page_titles {
 		text-align: left;
 		margin-left: 10%;
-		font-size: 25px;
+		font-size: 26px;
 	}
   .experience_title{
 		width: 350px;
@@ -350,9 +358,10 @@ body {
 	}
   .experience_title > h3 {
     margin-top: 0px;
+    font-size: 20px;
   }
   .experience_array_section {
-		font-size: 17px;
+		font-size: 15px;
     margin-left: 17%;
 	}
   .experience_description {
@@ -361,6 +370,7 @@ body {
   }
   .experience_description > h4 {
     margin-bottom: 6px;
+    font-size: 18px;
   }
 	#copyright {
 		margin-top: 40px;
