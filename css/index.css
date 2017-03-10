@@ -81,6 +81,17 @@ body {
 	font-size: 20px;
 	color: orange;
 	margin-left: 160px;
+	margin-bottom: 0px;
+}
+
+#landing_title a {
+	margin-top: 0;
+	display: block;
+	text-align: center;
+	font-size: 13px;
+	color: orange;
+	margin-left: 170px;
+	/*text-decoration: underline;*/
 }
 /*arry color secion2*/
 .array_color {
@@ -235,6 +246,10 @@ body {
 	#landing_title p {
 		font-size: 30px;
 		margin-left: 305px;
+	}
+	#landing_title a {
+		font-size: 20px;
+		margin-left: 320px;
 	}
 	/*equal sign project section */
 	.orange_section {
