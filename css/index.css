@@ -1,0 +1,459 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media (max-height: 568px) {
+}
+body {
+	font-family: 'lato', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
+}
+.fp-slidesNav.bottom { 
+	bottom: 70px;
+}
+.nav_menus a {
+	color: black;	
+	font-size: 13px;
+}
+.nav li a {
+	padding: 2px;
+}
+.nav li a:hover {
+	color: orange;	
+	background-color: white;
+}
+.nav li a:focus {
+	background-color: white;
+}
+.active a {
+	color: orange;
+	background-color: white;
+}
+/*nav bar brand icon [] */
+#brand_icon {
+	color: orange;
+	font-size: 25px;
+}
+.experience_title > h3 {
+    margin-top: 0px;
+    font-size: 16px; 
+    margin-bottom: 8px;
+}
+/*nav bar brand section */
+.navbar-default .navbar-brand {
+	font-size: 18px;
+	color: black;
+}
+.navbar-default .navbar-brand:hover {
+	color: orange;
+}
+/*navbar container*/
+.navbar-default {
+	background-color: white;
+	border: none;
+}
+/*Landing page heading*/
+#landing_title h1 {
+	text-align: center;
+	font-size: 45px;
+}
+.experience_title{
+  width: 350px;
+  display: inline-block;
+  margin-left: 0%;
+}
+.experience_title > h3 {
+    margin-top: 0px;
+    font-size: 16px;
+  }
+.experience_description {
+  padding: 0px;
+  color: grey;
+}
+.experience_description > h4 {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+#title_icon {
+	color: orange;
+	font-size: 50px;
+}
+#landing_title p {
+	text-align: center;
+	font-size: 20px;
+	color: orange;
+	margin-left: 160px;
+	margin-bottom: 0px;
+}
+
+#landing_title a {
+	margin-top: 0;
+	display: block;
+	text-align: center;
+	font-size: 13px;
+	color: orange;
+	margin-left: 170px;
+	/*text-decoration: underline;*/
+}
+/*arry color secion2*/
+.array_color {
+	color: orange;
+}
+/*equal sign project section */
+.orange_section {
+	display: inline-block;
+	width: 33%;
+	visibility: hidden;
+}
+ .experience_array_section {
+		font-size: 12px;
+	}
+.array_section {
+	display: inline-block;
+	font-size: 12px;
+}
+.page_titles {
+	color: orange;
+	font-size: 26px;
+}
+.about_titles {
+  margin-left: 11%;
+  color: orange;
+}
+.project_links {
+	width: 200px;
+	display: inline-block;
+}
+.project_description {
+	color: grey;
+	font-size: 11px;
+}
+.detail_description {
+	font-size: 12px;
+	margin-left: 2%;
+	width: 290px;
+	color: grey;
+}
+#project_section ul li {
+	list-style: none;
+}
+#project_section ul li a {
+	color: black;
+	font-size: 18px;
+	text-decoration: underline;
+}
+#project_section ul li a:hover {
+	color: orange;
+	font-size: 19px;
+	text-decoration: underline;
+}
+#project_section ul li a:active {
+	font-size: 18px;
+	text-decoration: underline;
+}
+#project_section ul li p a {
+	font-size: 12px;
+	color: grey;
+}
+#project_section ul li p a:hover {
+	font-size: 12px;
+}
+
+#orange_hello {
+	color: orange;
+	font-size: 30px;
+	display: none;
+	width: 30px;
+	text-align: center;
+}
+#say_hello {
+	margin-left: 2%;
+	display: none;
+}
+#say_hello2 {
+	color: orange;
+	display: inline-block;
+	margin-left: 10%;
+}
+#about_me {
+	margin-left: 11%;
+	/*margin-top: 10px;*/
+	width: 300px;
+	font-size: 12px;
+	color: grey;
+	/*padding: 0px;*/
+}
+.about_titles {
+	font-size: 22px;
+}
+#contacts ul {
+	width: 330px;
+	margin-left: 25%;
+}
+#contacts ul li{
+	list-style: none;
+	display: block;
+	margin-top: 15px;
+}
+#contacts ul li a{
+	color: black;
+	font-size: 16px;
+}
+#contacts ul li a:hover{
+	color: orange;
+	font-size: 16px;
+}
+#contacts ul li a:active{
+	color: orange;
+	font-size: 15px;
+}
+.orange_list {
+	color: orange;
+}
+#copyright {
+	font-size: 10px;
+	margin-left: 8%;
+	margin-top: 30px;
+	width: 340px;
+	color: grey;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.nav_menus a {
+		font-size: 16px;
+	}
+	/*nav bar brand icon [] */
+	#brand_icon {
+		font-size: 33px;
+	}
+	/*nav bar brand section */
+	.navbar-default .navbar-brand {
+		margin-top: 10px;
+	}
+	/*navbar container*/
+	.navbar-default {
+		margin-right: 30px;
+	}
+	#project_nav_link {
+		padding-top:15px;
+	}
+	/*Landing page heading*/
+	#landing_title h1 {
+		font-size: 75px;
+	}
+	#title_icon {
+		font-size: 90px;
+	}
+	#landing_title p {
+		font-size: 30px;
+		margin-left: 305px;
+	}
+	#landing_title a {
+		font-size: 20px;
+		margin-left: 320px;
+	}
+	/*equal sign project section */
+	.orange_section {
+		visibility: visible;
+		color: orange;
+		font-size: 25px;
+		display: inline-block;
+		width: 20px;
+		margin-right: 20px;
+		text-align: center;
+  }
+  .experience_array_section {
+		font-size: 13px;
+    margin-left: 10%;
+	}
+	.array_section {
+		font-size: 16px;
+	}
+	.about_titles {
+		margin-left: 25%;
+		color: orange;
+		font-size: 25px;
+	}
+	.page_titles {
+		text-align: left;
+		margin-left: 10%;
+		font-size: 26px;
+	}
+  .experience_title{
+		width: 350px;
+		display: inline-block;
+		margin-left: 10%;
+	}
+  .experience_title > h3 {
+    margin-top: 0px;
+  }
+	.project_links {
+		width: 180px;
+		display: inline-block;
+		margin-left: 10%;
+	}
+	.project_description {
+		font-size: 13px;
+		margin-left: 10%;
+		margin-top: 0px;
+  }
+  .experience_description {
+    padding: 0px;
+    color: grey;
+  }
+  .experience_description > h4 {
+    margin-bottom: 6px;
+  }
+	.detail_description {
+		font-size: 14px;
+		margin-left: 13%;
+		margin-top: 0px;
+		width: 540px;
+	}
+	#project_section ul li {
+		/*margin-top: 50px;*/
+	}
+	#project_section ul li a {
+		font-size: 20px;
+	}
+	#project_section ul li a:hover {
+		font-size: 21px;
+	}
+	#project_section ul li a:active {
+		font-size: 20px;
+	}
+	#project_section ul li p a {
+		font-size: 14px;
+		color: grey;
+	}
+	#project_section ul li p a:hover {
+		font-size: 15px;
+	}
+	#orange_hello {
+		width: 80px;
+		display: inline-block;
+	}
+	#say_hello {
+		display: inline-block;
+		margin-left: 26%;
+	}
+	#say_hello2 {
+		color: orange;
+		display: inline-block;
+		margin-left: 0px;
+	}
+	#about_me {
+		margin-left: 25%;
+		margin-top: 30px;
+		width: 440px;
+		font-size: 14px;
+	}
+	#contacts ul {
+		/*margin-top: 50px;*/
+		width: 600px;
+		margin-left: 20%;
+	}
+	#contacts ul li{
+		list-style: none;
+		display: inline-block;
+		margin-left: 13%;
+	}
+	#copyright {
+		font-size: 12px;
+		margin-left: 32%;
+		margin-top: 27px;
+		width: 600px;
+	}
+}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .experience_title {
+    width: 300px;
+		margin-left: 24%;
+    margin-top: 0px;
+	}
+  .experience_title > h3 {
+    margin-top: 0px;
+    font-size: 20px;
+  }
+  .experience_array_section {
+		font-size: 15px;
+    margin-left: 24%;
+	}
+  .experience_description {
+    padding: 0px;
+    color: grey;
+  }
+  .experience_description > h4 {
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+	#copyright {
+		margin-top: 40px;
+	}
+	ul {
+		margin-top: 20px;
+	}
+	.nav_menus a {
+		font-size: 17px;
+	}
+	#project_nav_link {
+		padding-top:0px;
+	}
+	.orange_section {
+		font-size: 30px;
+		width: 55px;
+		margin-right: 40px;
+	}
+	#project_section ul li a {
+		font-size: 21px;
+	}
+	#project_section ul li a:hover {
+		color: orange;
+		font-size: 22px;
+	}
+	#project_section ul li a:active {
+		font-size: 21px;
+	}
+	.array_section {
+		font-size: 17px;
+	}
+	.page_titles {
+		text-align: left;
+		margin-left: 24%;
+	}
+	.project_links {
+		width: 200px;
+		margin-left: 24%;
+	}
+	.project_description {
+		margin-left: 24%;
+	}
+	.detail_description {
+		margin-left: 26%;
+		width: 650px;
+	}
+	#about_me {
+		width: 600px;
+	}
+	#contacts ul {
+		margin-left: 26%;
+	}
+	#contacts ul li{
+		margin-right: 13%;
+		margin-left: 2%;
+	}
+	#contacts ul li a{
+		font-size: 18px;
+		padding-left: 1px;
+	}
+	#contacts ul li a:hover{
+		font-size: 18px;
+	}
+	#contacts ul li a:active{
+		font-size: 17px;
+	}
+}
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
